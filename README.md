@@ -14,6 +14,16 @@ raza
 nombre del dueño
 apellido del dueño
 
+Este proyecto sigue el camino feliz sin validaciones exhaustivas ni manejo de errores avanzados.
+Este proyecto está pensado para futuras integraciones con aplicaciones web y móviles que puedan consultar al mismo backend.
+
+La API utiliza H2 como base de datos en memoria. Los datos se restablecen 
+cada vez que el sistema se reinicia.
+
+Colecciones de Postman
+Se incluyen colecciones de Postman para facilitar las pruebas de la API. 
+Estas colecciones están disponibles en el directorio /postman del proyecto.
+
 Tecnologías Utilizadas
 Java: Lenguaje principal para la lógica del backend.
 Spring Boot: Framework utilizado para construir la API REST.
